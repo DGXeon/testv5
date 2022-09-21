@@ -64,7 +64,7 @@ const { tiktokdl } = require('@bochilteam/scraper')
 const { instagramdl, instagramdlv2, instagramdlv3, instagramdlv4 } = require('@bochilteam/scraper')
 const { xeonvirtex } = require('./XBug/xeonvirtex')
 const { xeonbutton } = require('./XBug/xeonbutton')
-const { xeonbrutal } = require('./Xbug/xeonbrutal')
+const { xeonbrutal } = require('./XBug/xeonbrutal')
 var Jimp = require('jimp')
 const { youtubedl, youtubedlv2, tiktokdlv3} = require('@bochilteam/scraper')
 const {
