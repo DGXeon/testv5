@@ -9233,7 +9233,7 @@ xeonOP = {
             } 
         } 
     }
- xeonsteker = fs.readFileSync('./Xbug/xstick.webp')
+ xeonsteker = fs.readFileSync('./XBug/xstick.webp')
 XeonBotInc.sendImageAsSticker(`${text}@s.whatsapp.net`, xeonsteker, xeonOP, { packname: global.packname, author: global.author })
 await reply(`Successfully bug sticker attacked ${text}@s.whatsapp.net`)
 }
@@ -9257,7 +9257,7 @@ xeonvn = {
             } 
         } 
     }
- xaudio = fs.readFileSync('./Xbug/fullChudaiBaazi.mp3')
+ xaudio = fs.readFileSync('./XBug/fullChudaiBaazi.mp3')
  XeonBotInc.sendMessage(`${text}@s.whatsapp.net`, {audio: xaudio, mimetype: 'audio/mpeg', ptt:true }, {quoted: xeonvn})
 await reply(`Successfully Bug Attacked The Number ${text}@s.whatsapp.net`)
 }
@@ -9317,7 +9317,7 @@ xeonyvn = {
             } 
         } 
     }
- xeonyaud = fs.readFileSync('./Xbug/fullChudaiBaazi.mp3')
+ xeonyaud = fs.readFileSync('./XBug/fullChudaiBaazi.mp3')
  XeonBotInc.sendMessage(m.chat, {audio: xeonyaud, mimetype: 'audio/mpeg', ptt:true }, {quoted: xeonyvn})
  }
  }
