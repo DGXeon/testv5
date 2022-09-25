@@ -7091,8 +7091,8 @@ case 'image': {
                 reply(mess.wait)
 		let { pinterest } = require('./lib/scraperW')
                 anu = await pinterest(text)
-                result = anu[Math.floor(Math.random() * anu.length)]
-                XeonBotInc.sendMessage(m.chat, { image: { url: result }, caption: ` ${themeemoji} Media Url : `+result }, { quoted: m })
+                resultkkk3 = anu[Math.floor(Math.random() * anu.length)]
+                XeonBotInc.sendMessage(m.chat, { image: { url: resultkk3 }, caption: ` ${themeemoji} Media Url : `+resultkkk3 }, { quoted: m })
             }
             break
 case 'mcserver': case 'mcquery': {
